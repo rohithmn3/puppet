@@ -1,8 +1,4 @@
 # puppet
-<<<<<<< HEAD
-Puppet hiera demo:
-http://www.linuxjournal.com/content/using-hiera-puppet
-=======
 Puppet hiera demo
 
 
