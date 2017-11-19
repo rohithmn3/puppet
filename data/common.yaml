@@ -3,20 +3,20 @@ puppet::message: This is the message parameter
 
 #More complex example with per-node values
 puppet::simple_node_config:
-	host1: square
-	host2: triangle
+    host1: square
+    host2: triangle
 	
 #Even more complex example with per-node class selection
 puppet::complex_node_config:
-	host1:
-	  hello:
-	    target: world
-		animal: Lion
-	  goodbye:
-	    colour: yellow
-		size: large
+    host1:
+      hello:
+        target: world
+        animal: Lion
+      goodbye:
+        colour: yellow
+        size: large
 		
-	host2:
-	  hello:
-	    target: everybody
-		animal: Cow
+    host2:
+      hello:
+        target: everybody
+        animal: Cow
